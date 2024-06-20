@@ -54,6 +54,5 @@ and inconsistencies present.
 ### 12. Save Cleaned Data
 - The cleaned dataset is saved to a new CSV file.
 
-## Conclusion
-
+## Conclusion:
 The above steps ensure that the data is clean, consistent, and ready for further analysis. Each step addresses specific issues found in the dataset, from correcting invalid email formats to standardizing department names and handling salary noise.
