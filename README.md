@@ -21,7 +21,7 @@ and inconsistencies present.
 ### 4. Handle Missing Values
 - **Strategy**:
   - For `Age` and `Salary`, use the median values.
-  - For `Department` and `Join Date`, use placeholders ('Unknown' for department and '1970-01-01' for join date).
+  - For `Department` and `Join Date`, use placeholders ('Unknown' for department and mode for join date).
  
 ### 5.Removing Duplicates:
 - Identifying and removing duplicate rows to ensure each record is unique.
@@ -45,7 +45,7 @@ and inconsistencies present.
 
 ### 10. Clean the Department Column
 - **Assumption**: Department names should contain only standard names.
-- **Method**:  Use a dictionary to map common types and variations to standardized department names.
+- **Method**:  Use regular expression to standardized department names.
 
 
 ### 11. Handle Salary Noise
